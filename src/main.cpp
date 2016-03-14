@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	Vector vector;
+	Vector<char> vector;
 
 	int N;
 	cout << "N> ";
@@ -14,7 +14,7 @@ int main() {
 
 	for (int i = 0; i < N; ++i) {
 		cout << "\tItem " << i << "> ";
-		int x;
+		char x;
 		cin >> x;
 		vector.insert(x);
 	}
